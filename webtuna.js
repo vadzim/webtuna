@@ -3,6 +3,7 @@
 import { once } from "events"
 import { randomUUID } from "crypto"
 import net from "net"
+import { readFile } from "fs/promises"
 
 const { Peer } = await importPeerjs()
 
@@ -15,6 +16,14 @@ const { Peer } = await importPeerjs()
 		const isNumber = value => value === String(parseInt(value))
 
 		switch (command) {
+			case "--version":
+			case "version": {
+				console.log(
+					"webtuna version",
+					JSON.parse(await readFile(new URL(import.meta.resolve("./package.json")).pathname)).version,
+				)
+				process.exit(0)
+			}
 			case "share": {
 				if (!isNumber(source)) {
 					throw new EBadArguments()
