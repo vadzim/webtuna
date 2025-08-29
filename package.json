@@ -1,6 +1,6 @@
 {
 	"name": "webtuna",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Peer-to-peer port forwarding over WebRTC.",
 	"license": "ISC",
 	"author": "vadzim <v@vadzim.info>",
@@ -10,7 +10,7 @@
 		"webtuna": "./webtuna.js"
 	},
 	"engines": {
-		"node": ">=20.0.0"
+		"node": ">=22.0.0"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
