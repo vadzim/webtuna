@@ -1,6 +1,6 @@
 {
 	"name": "webtuna",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Peer-to-peer port forwarding over WebRTC.",
 	"license": "ISC",
 	"author": "vadzim <v@vadzim.info>",
