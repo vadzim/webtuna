@@ -1,0 +1,22 @@
+{
+	"name": "webtuna",
+	"version": "1.0.1",
+	"description": "Peer-to-peer port forwarding over WebRTC.",
+	"license": "ISC",
+	"author": "vadzim <v@vadzim.info>",
+	"main": "webtuna.js",
+	"type": "module",
+	"bin": {
+		"webtuna": "./webtuna.js"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@roamhq/wrtc": "^0.9.0",
+		"peerjs": "^1.5.5"
+	}
+}
