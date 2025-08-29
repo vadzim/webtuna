@@ -18,5 +18,13 @@
 	"dependencies": {
 		"@roamhq/wrtc": "^0.9.0",
 		"peerjs": "^1.5.5"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/vadzim/webtuna.git"
+	},
+	"bugs": {
+		"url": "https://github.com/vadzim/webtuna/issues"
+	},
+	"homepage": "https://github.com/vadzim/webtuna#readme"
 }
